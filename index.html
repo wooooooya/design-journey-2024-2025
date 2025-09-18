@@ -20,6 +20,20 @@
     <p>컴퓨터공학 전공이지만, 즐겁게 만들고 좋아했던 작업물들을 모아 작은 온라인 전시관으로 꾸며보았습니다.</p>
   </section>
 
+    <section id="upload">
+    <h2>이미지 업로드</h2>
+    <form id="uploadForm">
+      <input type="text" name="name" placeholder="이미지 이름" required>
+      <select name="type" required>
+        <option value="poster">포스터</option>
+        <option value="cardnews">카드뉴스</option>
+        <option value="goods">굿즈</option>
+      </select>
+      <input type="file" name="file" accept="image/*" required>
+      <button type="submit">업로드</button>
+    </form>
+  </section>
+
   <section id="works">
     <h2>What you'll find here</h2>
     <div class="categories">
